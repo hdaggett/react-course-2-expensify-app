@@ -5,7 +5,6 @@
     "author": "Heather Daggett",
     "license": "MIT",
     "scripts": {
-        "serve": "live-server public/",
         "build:dev": "webpack",
         "build:prod": "webpack -p --env production",
         "dev-server": "webpack-dev-server",
@@ -24,8 +23,6 @@
         "css-loader": "0.28.4",
         "express": "^4.16.4",
         "extract-text-webpack-plugin": "^4.0.0-beta.0",
-        "jest": "20.0.4",
-        "live-server": "^1.2.1",
         "moment": "^2.24.0",
         "node-sass": "4.5.3",
         "normalize.css": "7.0.0",
@@ -41,10 +38,11 @@
         "style-loader": "0.18.2",
         "uuid": "3.1.0",
         "validator": "8.0.0",
-        "webpack": "^4.29.6",
-        "webpack-dev-server": "^3.2.1"
+        "webpack": "^4.29.6"
     },
     "devDependencies": {
-        "webpack-cli": "^3.3.0"
+        "jest": "20.0.4",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.2.1"
     }
 }
